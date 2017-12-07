@@ -1,0 +1,79 @@
+body {
+   /*background: url("assets/images/bkgd-image.jpg");*/
+   background-color: black;
+   color: white;
+   font-family: 'Russo One', sans-serif;
+}
+
+#pgLogo {
+	width: 300px;
+	margin: 10px 20px 20px 20px;
+}
+
+
+.player {
+	/*position: relative;*/
+	float: left;
+	max-height: 220px;
+	max-width: 220px;
+	background: white;
+	color: black;
+	border: 5px solid #42b3f4;
+	border-radius: 5px;
+	margin: 10px;
+	font-size: 1.5em;
+	font-weight: bold;
+	padding: 0px 30px;
+	cursor: pointer;
+}
+
+.toFight {
+	/*position: relative;*/
+	float: left;
+	max-height: 220px;
+	max-width: 220px;
+	background: #99ff99;
+	color: black;
+	border: 5px solid #006600;
+	border-radius: 5px;
+	margin: 10px;
+	font-size: 1.5em;
+	font-weight: bold;
+	padding: 0px 30px;
+	cursor: pointer;
+}
+
+.defender {
+	/*position: relative;*/
+	float: left;
+	max-height: 220px;
+	max-width: 220px;
+	background: red;
+	color: black;
+	border: 5px solid black;
+	border-radius: 5px;
+	margin: 10px;
+	font-size: 1.5em;
+	font-weight: bold;
+	padding: 0px 30px;
+	cursor: pointer;
+}
+
+.hero {
+	/*position: absolute;*/
+	max-height: 125px;
+}
+
+.none {
+	display: none;
+}
+
+.padding {
+	padding-left: 15px;
+}
+
+.squareImg {
+	margin-left: -12px;
+	max-width: 175px;
+	padding-bottom: 14px;
+}

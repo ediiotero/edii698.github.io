@@ -1,0 +1,109 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>RPG Game</title>
+
+	<!-- Latest compiled and minified CSS -->
+	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
+	
+	<link rel="stylesheet" type="text/css" href="assets/css/animate.css">
+	<link rel="stylesheet" type="text/css" href="assets/css/styles.css">
+
+	<script src="https://code.jquery.com/jquery.js"></script>
+	<script src="assets/javascript/game.js"></script>
+
+	<link href="https://fonts.googleapis.com/css?family=Russo+One" rel="stylesheet">
+
+	<style type="text/css">
+	body {
+		background: url("assets/images/bkgd-image.jpg");
+	}
+	</style>
+
+
+</head>
+<body>
+
+	<div class="row">
+
+		<div class="col-md-12 pull-left"><img id="pgLogo" src="assets/images/ff7-logo.png"></div>
+
+	</div>
+
+	<div class="row urCharacter none padding">
+		<div class="col-md-12">
+		<h2>Your Character</h2>
+		</div>
+	</div>
+
+	<div class="row">
+		
+		<div class="col-md-12">
+			<section class="player cloud animated fadeIn" data-player="cloud" data-hp="120" data-ap="25"> <p class="text-center">Cloud</p> <img class="hero center-block" src="assets/images/cloud.png"> <p class="text-center cloudHp"></p> </section>
+
+			<section class="player tifa animated fadeIn" data-player="tifa" data-hp="100" data-ap="25"> <p class="text-center">Tifa</p> <img class="hero center-block" src="assets/images/tifa.png"> <p class="text-center tifaHp"></p> </section>
+
+			<section class="player vincent animated fadeIn" data-player="vincent" data-hp="150" data-ap="25"> <p class="text-center">Vincent</p> <img class="squareImg hero center-block" src="assets/images/vincent.jpg"> <p class="text-center vincentHp"></p> </section>
+
+			<section class="player sephiroth animated fadeIn" data-player="sephiroth" data-hp="180" data-ap="25"> <p class="text-center">Sephiroth</p> <img class="squareImg hero center-block" src="assets/images/sephiroth.jpg"> <p class="text-center sephirothHp"></p> </section>
+			
+		</div>
+
+	</div>
+
+	<div class="row urCharacter2 padding">
+		<div class="col-md-12">
+		<h2>Your Character</h2>
+		</div>
+	</div>
+
+	<div class="row padding">
+		<div class="col-md-12">
+		<h2>Enemies Available to Attack</h2>
+		</div>
+	</div>	
+
+	<div class="row ">
+		
+		<div class="col-md-12">
+			<section class="toFight cloud2 none animated bounceIn" value="hero1"> <p class="text-center">Cloud</p> <img class="hero center-block" src="assets/images/cloud.png"> <p class="text-center cloudHp"></p> </section>
+
+			<section class="toFight tifa2 none animated bounceIn" value="hero2"> <p class="text-center">Tifa</p> <img class="hero center-block" src="assets/images/tifa.png"> <p class="text-center tifaHp"></p> </section>
+
+			<section class="toFight vincent2 none animated bounceIn" value="hero3"> <p class="text-center">Vincent</p> <img class="squareImg hero center-block" src="assets/images/vincent.jpg"> <p class="text-center vincentHp"></p> </section>
+
+			<section class="toFight sephiroth2 none animated bounceIn" value="hero4"> <p class="text-center">Sephiroth</p> <img class="squareImg hero center-block" src="assets/images/sephiroth.jpg"> <p class="text-center sephirothHp"></p> </section>
+			
+		</div>
+	</div>	
+
+
+
+	<div class="row padding">
+		<div class="col-md-12">
+		<h2>Fight Section</h2>
+		<button class="btn btn-danger btn-md attack-button"><span class="glyphicon glyphicon-fire"></span> Attack</button>
+		<h2>Defender</h2>
+		</div>
+	</div>	
+
+	<div class="row ">
+		
+		<div class="col-md-12 defend">
+			<section class="defender cloud3 none animated bounceIn" value="hero1"> <p class="text-center">Cloud</p> <img class="hero center-block" src="assets/images/cloud.png"> <p class="text-center cloudHp"></p> </section>
+
+			<section class="defender tifa3 none animated bounceIn" valuet="100"> <p class="text-center">Tifa</p> <img class="hero center-block" src="assets/images/tifa.png"> <p class="text-center tifaHp"></p> </section>
+
+			<section class="defender vincent3 none animated bounceIn" value="hero3"> <p class="text-center">Vincent</p> <img class="squareImg hero center-block" src="assets/images/vincent.jpg"> <p class="text-center vincentHp"></p> </section>
+
+			<section class="defender sephiroth3 none animated bounceIn" value="hero4"> <p class="text-center">Sephiroth</p> <img class="squareImg hero center-block" src="assets/images/sephiroth.jpg"> <p class="text-center sephirothHp"></p> </section>
+			
+		</div>
+	</div>	
+
+
+
+
+</body>
+</html>
