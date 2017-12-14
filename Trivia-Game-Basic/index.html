@@ -1,0 +1,108 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>Quiz Game</title>
+
+	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
+	
+	<link rel="stylesheet" type="text/css" href="assets/css/style.css">
+
+	<link href="https://fonts.googleapis.com/css?family=Permanent+Marker" rel="stylesheet">
+	<link href="https://fonts.googleapis.com/css?family=Kalam" rel="stylesheet">
+
+	<script src="https://code.jquery.com/jquery.js"></script>
+	<script src="assets/app/app.js"></script>
+
+	<style type="text/css">
+		body {
+				background: url("assets/images/comic-bkgrd.jpg");
+				background-size: 100%;
+				background-repeat: repeat-y;
+				font-family: 'Kalam', cursive;
+				font-size: 	2em;
+				color: white;
+
+				}
+	</style>
+
+
+</head>
+<body>
+
+<div>
+	
+
+	<div class="container" id="all">
+
+		<button type="button" id="start" class="btn btn-primary btn-lg btn-block">Start</button>
+		
+         <h1 class="text-center" id="theTitle">Comic Quiz</h1>  
+		<div id="quiz" class="none">
+			
+			<div id="show-number" class="text-center"></div>
+			
+				<form name="quiz" method="post" name="buttons" id="quiz" class="text-center" onsubmit="return false">
+					
+					<div class="question">What is Spider-Mans name?</div>
+						<input id="answer" type="radio" name="ansrs1" value="wrong"> Steve Rogers
+						<input id="answer" type="radio" name="ansrs1" value="wrong"> Brue Wayne
+						<input id="answer" type="radio" name="ansrs1" value="correct"> Peter Parker
+
+					<div class="question">Who is Bruce Banner?</div>
+						<input id="answer" type="radio" name="ansrs2" value="wrong"> Iron Man
+						<input id="answer" type="radio" name="ansrs2" value="correct"> Hulk
+						<input id="answer" type="radio" name="ansrs2" value="wrong"> Captain America	
+
+					<div class="question">What year did the Dark Knight Returns come out?</div>
+						<input id="answer" type="radio" name="ansrs3" value="wrong"> 1983
+						<input id="answer" type="radio" name="ansrs3" value="wrong"> 1991
+						<input id="answer" type="radio" name="ansrs3" value="correct"> 1986
+
+					<div class="question">What was the first movie in what is now the MCU?</div>
+						<input id="answer" type="radio" name="ansrs4" value="correct"> Iron Man
+						<input id="answer" type="radio" name="ansrs4" value="wrong"> Spider Man
+						<input id="answer" type="radio" name="ansrs4" value="wrong"> Hulk
+						
+					<div class="question">What year did Superman die?</div>
+						<input id="answer" type="radio" name="ansrs5" value="wrong"> 1989
+						<input id="answer" type="radio" name="ansrs5" value="wrong"> 1990
+						<input id="answer" type="radio" name="ansrs5" value="correct"> 1992
+
+					<div class="question">Who played the villain in the 1989 Batman movie?</div>
+						<input id="answer" type="radio" name="ansrs6" value="correct"> Jack Nicholson
+						<input id="answer" type="radio" name="ansrs6" value="wrong"> Michael Keaton
+						<input id="answer" type="radio" name="ansrs6" value="wrong"> Michael Gough	
+						
+					<div class="question">Captain Marvel is a character of what company?</div>
+						<input id="answer" type="radio" name="ansrs7" value="wrong"> DC
+						<input id="answer" type="radio" name="ansrs7" value="wrong"> Marvel
+						<input id="answer" type="radio" name="ansrs7" value="correct"> Both
+
+					<div class="question">Edwin Jarvis serves as butler to what superteam?</div>
+						<input id="answer" type="radio" name="ansrs8" value="wrong"> Justice League
+						<input id="answer" type="radio" name="ansrs8" value="correct"> Avengers
+						<input id="answer" type="radio" name="ansrs8" value="wrong"> X-Men
+						<input class="none" id="answer" type="radio" name="ansrs8" value="wrong">
+								
+					
+					<p><button class="submit btn-danger" onclick="return runQuiz();" type="submit">Submit</button></p>
+
+				</form>
+		</div>
+			
+
+		<div id="done" class="none text-center">
+		<h2>All Done!</h2><br>
+		<p><div id="correct"></div></p>
+		<p><div id="wrong"></div></p>
+		<p><div id="noAnswer"></div></p>
+		<img src="assets/images/captain-america.gif">
+		</div>
+
+	</div>	
+
+</div>	
+	
+</body>
+</html>
