@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>Cartoon Gifs!</title>
+
+	<link rel="stylesheet" type="text/css" href="css/styles.css">
+
+</head>
+<body>
+	<!-- empty div - will be filled with buttons in array as well as new buttons -->
+	<div id="cartoonBtn" class='buttonGen'></div>
+		
+		<!-- submit form to create new buttons -->
+		<form id="cartoonForm">
+			<label for="cartoonInput">Add your favorite cartoon</label><br>
+			<input type="text" name="name" id="cartoonInput"><br>
+
+			<input id="addCartoon"  type="submit" value="Submit">
+		</form>
+
+	<!-- empty div to be filled with 10 gifs when button is clicked -->
+	<div id="cartoonGif"></div>
+
+
+	<script src="https://code.jquery.com/jquery.js"></script>
+	<script src="app/javascript.js"></script>	
+
+</body>
+</html>
