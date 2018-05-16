@@ -1,0 +1,263 @@
+body {
+		background: url("assets/images/bkimage2.png") repeat;
+		background-color: #ccc;
+		font-family: 'Arial', 'Helvetica Neue', Helvetica, sans-serif;
+	}
+
+a {
+	color: #ccc;
+}
+
+
+h1, h2, h3 {
+	font-family: 'Georgia', Times, Times New Roman, serif;
+
+}
+
+.logo {
+	background-color: #4aaaa5;
+	color: #ffffff;
+	padding: 10px 12px;
+	text-align: center;
+	margin: 0px;
+	font-size: 3em;
+}
+
+.myNav-links {
+	margin-top: 1.5em;
+	font-size: 1.25em;
+	color: #ccc;
+}
+
+nav {
+	background: #ffffff;
+	margin-bottom: 20px;
+}
+
+article {
+	background: #ffffff;
+    border: 1px solid #ccc;
+    padding: 10px;
+}
+
+.panel-default {
+	padding: 0px;
+}
+
+.padding-l {
+	padding-left: 0px;
+}
+
+.padding-r {
+	text-align: right;
+	padding-right: 0px;
+}
+
+#me {
+	width: 200px;
+	float: left;
+	border: 1px solid;
+	margin-right: 10px;
+}
+
+h2, h3 {
+	color: #4aaaa5;
+	margin: 4px 0px;
+}
+
+h1 {
+	display: block;
+    margin-top: 0.67em;
+    margin-bottom: 0.67em;
+    margin-left: 0;
+    margin-right: 0;
+    font-weight: bold;
+
+}
+
+h2 {
+	display: block;
+    font-size: 25px;
+    margin-top: 0.67em;
+    margin-bottom: 0.67em;
+    margin-left: 0;
+    margin-right: 0;
+    font-weight: bold;
+
+}
+
+h3 {
+	display: block;
+    font-size: 20px;
+    margin-top: 0.67em;
+    margin-bottom: 0.67em;
+    margin-left: 0;
+    margin-right: 0;
+    font-weight: bold;
+}
+
+#icon {
+	width: 60px;
+	padding: 5px;
+	cursor: pointer;
+}
+
+#stack {
+	height: 55px;
+	padding: 5px;
+	cursor: pointer;
+}
+
+.panel-heading {
+	border: 0px;
+	background-color: #ffffff;
+}
+
+.panel-default {
+	background-color: #ffffff;
+}
+
+.social {
+	margin-left: 25%;
+}
+
+#contact-title {
+	text-align: center;
+}
+
+.f-text {
+	text-align: center;
+}
+
+footer {
+	clear: both;
+	text-align: center;
+	color: #cccccc;
+	background: #666666;
+	padding: 20px;
+	border-top: solid #4aaaa5 6px;
+	font-size: 13px;
+	margin-top: 20px;
+}
+
+.right {
+	float: right;
+}
+
+#port {
+	width: 280px;
+	height: 200px;
+}
+
+.img-bt {
+	
+	float: left;
+	padding: 10px;
+	margin-right: 5px;
+	position: relative;
+	cursor: pointer;
+}
+
+#banner {
+	position: absolute;
+	background: #4aaaa5;
+	width: 280px;
+	height: 40px;
+	top: 150px;
+	text-align: center;
+	color: #ffffff;
+	padding-bottom: 8px;
+}
+
+#img-title {
+	font-family: 'Georgia', Times, Times New Roman, serif;
+	font-size: 18px;
+	top: 12px;
+	position: relative;
+}
+
+.form-title {
+	color: #666666;
+	margin: 5px 0px;
+	font-size: 15px;
+}
+
+input[type=text], select {
+    width: 100%;
+    padding: 8px 20px;
+    margin: 8px 0;
+    display: inline-block;
+    border: 1px solid #ccc;
+    box-sizing: border-box;
+}
+
+input[type=submit] {
+    width: 100px;
+    background-color: #4aaaa5;
+    color: white;
+    padding: 10px 20px;
+    margin: 8px 0;
+    border: none;
+    cursor: pointer;
+}
+
+textarea {
+    width: 100%;
+    height: 150px;
+    padding: 12px 20px;
+    border: 1px solid #ccc;
+    box-sizing: border-box;
+    font-family: 'Arial', 'Helvetica Neue', Helvetica, sans-serif;
+}
+
+@media screen and (max-width: 980px) {
+	.myNav-links{
+		margin-top: 35px;
+	}
+
+	#banner {
+		margin-left: 17.5%;
+	}
+	#port {
+		margin-left: 19%;
+	}
+}
+
+
+@media screen and (max-width: 768px) {
+	.panel-default {
+		margin-top: 20px;
+	}
+	.social {
+		margin-left: 37%;
+	}
+	.padding-r {
+		text-align: center;
+	}
+	.myNav-links{
+		text-align: center;
+		margin-top: 5px;
+		padding: 10px 0px;
+	}
+	.right {
+		float: none;
+	}
+	.gap {
+		display: none;
+	}
+	.padding-l {
+    padding-left: 15px;
+	}
+	article {
+		overflow: auto;
+	}
+	#banner {
+		margin-left: 18%;
+		width: 96%;
+	}
+	#port {
+		margin-left: 19%;
+		width: 100%;
+		height: 100%;
+	}
+}
