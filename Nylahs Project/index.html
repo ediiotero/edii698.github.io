@@ -14,7 +14,7 @@
       integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T"
       crossorigin="anonymous"
     />
-    <link rel="stylesheet" href="/css/animate.css" />
+    <link rel="stylesheet" href="css/animate.css" />
     <title>jeopardy</title>
     <style>
       body {
@@ -193,7 +193,7 @@
       integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM"
       crossorigin="anonymous"
     ></script>
-    <script src="/data.json"></script>
+    <script src="data.json"></script>
     <script>
       $(document).ready(function() {
         let team1 = 0;
@@ -256,7 +256,7 @@
           console.log(btn);
         }
 
-        $.getJSON("/data.json", function(data) {
+        $.getJSON("data.json", function(data) {
           console.log(data);
           let output = '<div class="row">';
           $.each(data, function(key, val) {
