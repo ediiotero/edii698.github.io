@@ -1,0 +1,122 @@
+[
+  {
+    "question": "What is Thomas's sister name?",
+    "answer": "Birdie",
+    "points": 100,
+    "num": "questionModal1"
+  },
+  {
+    "question": "What is the intent of the author?",
+    "answer": "Historical fiction",
+    "points": 100,
+    "num": "questionModal2"
+  },
+  {
+    "question": "What year is it in the book?",
+    "answer": "1863",
+    "points": 100,
+    "num": "questionModal3"
+  },
+  {
+    "question": "Why are the two sides fighting?",
+    "answer": "To stop slavery",
+    "points": 100,
+    "num": "questionModal4"
+  },
+  {
+    "question": "Henry reminds Thomas of who?",
+    "answer": "Clem",
+    "points": 200,
+    "num": "questionModal5"
+  },
+  {
+    "question": "Where is Gettysburg located?",
+    "answer": "Pennsylvania",
+    "points": 200,
+    "num": "questionModal6"
+  },
+  {
+    "question": "How old is Thomas?",
+    "answer": "11",
+    "points": 200,
+    "num": "questionModal7"
+  },
+  {
+    "question": "What did Thomas follow while traveling?",
+    "answer": "The North Star",
+    "points": 200,
+    "num": "questionModal8"
+  },
+  {
+    "question": "Who did Thomas and Birdie save?",
+    "answer": "Henry",
+    "points": 300,
+    "num": "questionModal9"
+  },
+  {
+    "question": "What did Thomas use as a weapon?",
+    "answer": "A skunk",
+    "points": 300,
+    "num": "questionModal10"
+  },
+  {
+    "question": "How did Thomas help the soldiers?",
+    "answer": "Brought them weapons",
+    "points": 300,
+    "num": "questionModal11"
+  },
+  {
+    "question": "Who won the civil war?",
+    "answer": "the Union Army",
+    "points": 300,
+    "num": "questionModal12"
+  },
+  {
+    "question": "Who told who they should move?",
+    "answer": "Henry told Thomas he should move",
+    "points": 400,
+    "num": "questionModal13"
+  },
+  {
+    "question": "Where did Henry tell Thomas to move to?",
+    "answer": "Virginia",
+    "points": 400,
+    "num": "questionModal14"
+  },
+  {
+    "question": "Where did they find Thomas?",
+    "answer": "The forest",
+    "points": 400,
+    "num": "questionModal15"
+  },
+  {
+    "question": "What happened to Birdie during the battle?",
+    "answer": "She was kidnapped",
+    "points": 400,
+    "num": "questionModal16"
+  },
+  {
+    "question": "What two places does Thomas feel at home?",
+    "answer": "The camp site Regement and Virginia",
+    "points": 500,
+    "num": "questionModal17"
+  },
+  {
+    "question": "Who did Henry meet at the Regement camp site",
+    "answer": "Henry, Captain Campbell, Homer, Lester",
+    "points": 500,
+    "num": "questionModal18"
+  },
+  {
+    "question": "Who was the president during the Civil War?",
+    "answer": "Abraham Lincoln",
+    "points": 500,
+    "num": "questionModal19"
+  },
+  {
+    "question": "What is the authors name?",
+    "answer": "Lauren Tarshis",
+    "points": 500,
+    "num": "questionModal20"
+  }
+]
