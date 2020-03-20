@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="styles.css" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Source+Sans+Pro&display=swap" rel="stylesheet">
+    <script>
+        window.FontAwesomeConfig = {
+            searchPseudoElements: true
+        }
+    </script>
+    <script src="https://kit.fontawesome.com/a8fba6055b.js" crossorigin="anonymous"></script>
+    <title>PDF Viewer</title>
+</head>
+
+<body>
+    <header id="header-bar">
+        <h1 class="header-title">PDF Viewer</h1>
+        <div class="header-links">
+            <a href="/index.html">View PDF</a>|<a href="/infinite-scroll.html">Load List</a>
+        </div>
+    </header>
+
+    <main id="main-container">
+        <nav id="folder-nav">
+            <ul id="folder-list">
+                <li>
+                    <span class="icon folder-closed-icon">Main Folder</span>
+                    <ul class="nested">
+                        <li class="icon file-icon pdf" data-name="/pdf/file1.pdf" onclick="showPdf(this)">File 1</li>
+                        <li class="icon file-icon" data-name="/pdf/file2.pdf" onclick="showPdf(this)">File 2</li>
+                        <li>
+                            <span class="icon folder-closed-icon">Sub Folder</span>
+                            <ul class="nested">
+                                <li class="icon file-icon" data-name="/pdf/more-files/file3.pdf"
+                                    onclick="showPdf(this)">Sub File 1
+                                </li>
+                                <li class="icon file-icon" data-name="/pdf/more-files//file4.pdf"
+                                    onclick="showPdf(this)">Sub File 2
+                                </li>
+                                <li class="icon file-icon" data-name="/pdf/more-files//file5.pdf"
+                                    onclick="showPdf(this)">Sub File 3
+                                </li>
+                            </ul>
+                        </li>
+                    </ul>
+                </li>
+            </ul>
+        </nav>
+        <article id="file-viewer">
+            <iframe id="pdfIframe" src="" frameborder="0" width="100%" height="100%"></iframe>
+        </article>
+    </main>
+
+    <script src="index.js"></script>
+</body>
+
+</html>
